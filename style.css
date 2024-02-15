@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #555;
+}
+
+p{
+    padding: 0 0 20px 0;
+    line-height: 1.2em;
+}
+hr{
+    border: solid 1px #f3f3f3;
+    width: 515px;
+    margin-left: 30px;
+}
+
+input[type="text"], input[type="password"], input[type="search"]{
+    color: #5d5d5d;
+    width: 60%;
+    padding: 8px;
+}
+input, textarea{
+    outline: none;
+    border: none;
+    border: solid 1px #f2f2f2;
+}
+
+h1, h2{
+    font: normal 170% 'century gothic', arial;
+    margin: 0 0 15px 0;
+    padding: 15px 0 5px 0;
+    color: #000;
+}
+h2{
+    font-size: 140%;
+}
+
+a, a:hover{
+    outline: none;
+    color: #aeb002;
+}
+
+ul{
+    margin: 0 22px 0 17px;
+}
+
+ul li{
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px;
+    line-height: 1.5em;
+}
+
+.Header{
+    background-color: darkslateblue;
+    height: 177px;
+    font-size: 0.8em;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 900px;
+}
+.Main, .Logo, .SiteContent, .MenuBar, .Footer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.Logo{
+    width: 880;
+    padding-bottom: 40px;
+    padding-left: 320px;
+}
+.Logo h1, .Logo h2{
+    font: normal 300% 'century gotic', arial, sans-serif;
+    margin: 0 0 0 9px;
+}
+.LogoText h1, .LogoText h1 a, .LogoText h1 a:hover{
+    padding: 22px 0 0 0;
+    color: #fff;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+.LogoText h2{
+    font-size: 0.9em;
+    padding: 4px 0 0 0;
+    color: #999;
+}
+.MenuBar{
+    width: 900px;
+    height: 46px;
+}
+ul.Menu{
+    float: right;
+}
+ul.Menu li{
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 1px 2px 0 0;
+}
+ul.Menu li a{
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    height: 20px;
+    padding: 6px 35px 5px 28px;
+    color: #fff;
+    text-decoration: none;
+}
+ul.Menu li.selected a{
+    color: #aeb002;
+}
+ul.Menu li a:hover{
+    color: #e4ec04;
+}
+.SiteContent{
+    width: 880px;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    background-color: white;
+}
+.SideBarContainer{
+    float: right;
+    width: 224px;
+}
+
+.SideBar{
+    float: right;
+    width: 222px;
+    padding: 5%;
+    margin: 0 0 16px 0;
+    border: solid 2px #f2f2f2;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.btn{
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.SideBar h2{
+    color: #136cb2;
+}
+.PassRegText{
+    text-decoration: none;
+    font-size: 0.7em;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.SideBar ul{
+    margin: 0;
+}
+
+.SideBar ul li{
+    list-style-type: none;
+    margin: 0 0 0 0;
+
+}
+
+.SideBar .RatingSideBar{
+    float: right;
+}
+
+.Content{
+    text-align: left;
+    width: 620px;
+    float: left;
+    padding: 0 0 0 5px;
+}
+
+.PostsContent{
+    font-size: 0.8em;
+}
+
+.ReadRef a{
+    font-size: 125%;
+    text-decoration: none;
+}
+
+.FilmsBlock, .SerialsBlock{
+    margin-bottom: 5%;
+}
+
+.FilmsBlock img, .SerialsBlock img{
+    border-radius: 5px;
+    width: 22%;
+    border: solid 3px #dad7d5;
+}
+
+.InfoFilm{
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+}
+
+.InfoFilm .Label{
+    font-size: 1.2em;
+}
+.InfoFilm .Value{
+    font-size: 1em;
+    color: #49945a;
+    margin-right: 3%;
+}
+
+.DescriptionFilm{
+    margin-top: 5%;
+    padding-right: 260px;
+    width: 600px;
+}
+
+.DescriptionFilm img{
+    float: left;
+    margin-right: 5%;
+    border-radius: 4px;
+    border: solid 3px #dad7d5;
+}
+
+.Reviews{
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+
+.Reviews .ReviewName{
+    background-color: #7268ad;
+    color: white;
+    padding: 1%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 600px;
+}
+
+.Reviews .ReviewText{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+
+.Send{
+    margin-bottom: 4%;
+    width: 625px;
+}
+
+.Send input[type ="text"], textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+}
+
+.Send input[type ="text"]{
+    width: 600px;
+}
+
+.Send textarea{
+    height: 200px;
+    width: 616px;
+}
+
+.Send input[type="submit"]{
+    background-color: #7268ad;
+    padding: 3%;
+    color: white;
+    border-radius: 5px;
+}
+
+.InfoFilm{
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: #f9f9f9;
+    height: 270px;
+}
+
+.InfoFilm img{
+    float: left;
+    border-radius: 5px;
+    border: solid 3px #dad7d5;
+    width: 25%;
+    margin-right: 3%;
+}
+
+.Button{
+    background-color: #7268ad;
+    padding: 2%;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-top: 7%;
+    clear: both;
+    font-size: 0.8em;
+}
+
+.Button a{
+    color: white;
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border: solid 1px #f4f4f4;
+}
+
+td{
+    padding: 2%;
+    border: solid 1px #f4f4f4;
+}
+
+td img{
+    width: 60px;
+    vertical-align: middle;
+}
+
+.Center{
+    text-align: center;
+}
+
+.Rating{
+    font-weight: bold;
+}
+
+.Footer{
+    width: 100%;
+    height: 100px;
+    padding: 28px 0 5px 0;
+    text-align: center;
+    background-color: darkslateblue;
+    color: #a8aa94;
+    margin-left: 0; margin-right: 0;
+    min-width: 900px;
+}
+
+.Footer a{
+    color: #a8aa94;
+    text-decoration: none;
+}
+
+.Footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Footer p{
+    padding: 0 0 10px 0;
+}
+
+/* CSS Mobile*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+{
+    .Header{
+        background-color: #257965;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+    .Logo{
+        width: 100%;
+        padding-left: 0%;
+    }
+    .SiteContent{
+        width: 100%;
+    }
+
+    .Content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .MenuBar{
+        width: 100%;
+        height: 100%;
+    }
+    .SiteContent{
+        width: 100%;
+        text-align: center;
+    }
+    .SideBar{
+        display: none;
+    }
+    .Footer{
+        display: none;
+    }
+    ul.Menu{
+        float: none;
+    }
+    ul.Menu li{
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    .Logo h1{
+        font: normal 235% 'century gothic', areal, sans-serif;
+    }
+    .Logo h2{
+        font: normal 110% 'century gothic', areal, sans-serif;
+        color: white;
+    }
+
+    .Content h1, h2{
+        font: normal 120% 'century gothic', areal;
+    }
+
+    .FilmsBlock img{
+        width: 43%;
+    }
+    .SerialsBlock img{
+        width: 43%;
+    }
+    .PostsContent p{
+        line-height: 1.5em;
+        padding: 3%;
+        font-size: 115%;
+        text-align: left;
+    }
+    .ReadRef{
+        text-align: center;
+    }
+
+    /*Films html*/
+    
+    .InfoFilm{
+        float: none;
+        height: 100%;
+    }
+
+    .InfoFilm img{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .Button{
+        float: none;
+    }
+    /*Rating page*/
+    .table{
+        display: block;
+
+    }
+    th{
+        font-size: 85%;
+    }
+    td{
+        padding: 0;
+        margin: 0;
+        font-size: 95%;
+        text-align: left;
+    }
+
+    /*Show Page*/
+    iframe{
+        width: 85%;
+        height: 100%;
+    }
+    .DescriptionFilm{
+        width: 90%;
+        text-align: center;
+        margin-left: 3%;
+    }
+    .DescriptionFilm img{
+        float: none;
+        width: 50%;
+        display: block;
+        margin: auto;
+        margin-bottom: 7%;
+    }
+    .Reviews{
+        text-align: left;
+        margin-left: 5%;
+    }
+    .ReviewName{
+        width: 95% !important;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .ReviewText{
+        margin-left: 2%;
+        width: 90%;
+    }
+    .Send input[type="text"]{
+        width: 40% !important;
+        float: left;
+        margin-left: 5%;
+    }
+    .Send textarea{
+        width: 55% !important;
+        float: left;
+        margin-left: 5%;
+    }
+    .Send input[name="ReviewMail"]{
+        width: 52.5% !important;
+    }
+}
